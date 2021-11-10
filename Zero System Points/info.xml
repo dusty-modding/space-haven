@@ -1,0 +1,7 @@
+<mod>
+    <name>ZeroSystemPoints</name>
+    <description>Modifies System Point requirements for system modules to be 0 DEPRECATED</description>
+    <minimumLoaderVersion>0.10.0</minimumLoaderVersion>
+    <version>0.2.0</version>
+    <author>Killparadise</author>
+</mod>

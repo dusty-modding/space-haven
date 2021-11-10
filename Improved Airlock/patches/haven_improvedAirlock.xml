@@ -1,0 +1,32 @@
+<Patch>
+  <Operation Class="AttributeSet">
+    <!-- Airlock Oxygen -->
+    <xpath>/data/Element/me[@mid="120"]/data/l/element/spaceSuitLocker[@maxOxygen="6000"]</xpath>
+    <attribute>maxOxygen</attribute>
+    <value>10000</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Airlock Outgoing Inventory -->
+    <xpath>/data/Element/me[@mid="120"]/data/l/element/dockingPort</xpath>
+    <attribute>outGoingSize</attribute>
+    <value>20</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Airlock Incoming Inventory -->
+    <xpath>/data/Element/me[@mid="120"]/data/l/element/dockingPort</xpath>
+    <attribute>incomingSize</attribute>
+    <value>20</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Spacesuit Locker -->
+    <xpath>/data/Element/me[@mid="200"]/data/l/element/spaceSuitLocker[@maxOxygen="6000"]</xpath>
+    <attribute>maxOxygen</attribute>
+    <value>7000</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Airlock Doorway -->
+    <xpath>/data/Element/me[@mid="992"]/data/l/element/spaceSuitLocker[@maxOxygen="1000"]</xpath>
+    <attribute>maxOxygen</attribute>
+    <value>3500</value>
+  </Operation>
+</Patch>

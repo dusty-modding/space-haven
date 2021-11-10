@@ -1,0 +1,38 @@
+<Patch>
+  <Operation Class="AttributeSet">
+    <!-- Hull Stabalizer -->
+    <xpath>/data/Element/me[@mid="2257"]/objectInfo[@systemPoints="2"]</xpath>
+    <attribute>systemPoints</attribute>
+    <value>{hullStabalizer}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Shield Generator -->
+    <xpath>/data/Element/me[@mid="470"]/objectInfo[@systemPoints="2"]</xpath>
+    <attribute>systemPoints</attribute>
+    <value>{shieldGen}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Scanner -->
+    <xpath>/data/Element/me[@mid="2239"]/objectInfo[@systemPoints="2"]</xpath>
+    <attribute>systemPoints</attribute>
+    <value>{scanner}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Missle Turret -->
+    <xpath>/data/Element/me[@mid="2708"]/objectInfo[@systemPoints="2"]</xpath>
+    <attribute>systemPoints</attribute>
+    <value>{missleTurret}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Energy Turret -->
+    <xpath>/data/Element/me[@mid="2242"]/objectInfo[@systemPoints="2"]</xpath>
+    <attribute>systemPoints</attribute>
+    <value>{energyTurret}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Targeting Jammer -->
+    <xpath>/data/Element/me[@mid="2724"]/objectInfo[@systemPoints="2"]</xpath>
+    <attribute>systemPoints</attribute>
+    <value>{jammer}</value>
+  </Operation>
+</Patch>
