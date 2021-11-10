@@ -1,7 +1,29 @@
 <mod>
   <name>ImprovedAirlock</name>
-  <description>Gives Airlocks, Suit lockers, and Airlock Doors a boost in Oxygen</description>
-  <minimumLoaderVersion>0.0.1</minimumLoaderVersion>
-  <version>0.2.0</version>
+  <description>
+  Gives Airlocks, Suit lockers, and Airlock Doors a boost in Oxygen
+  ======================
+  Default Changes Include
+
+  Airlock:
+    - Oxygen Capacity: 6,000 -> 10,000
+    - Outgoing Inventory: 10 -> 20
+    - Incoming Inventory: 10 -> 20
+
+  Suit Locker:
+    - Oxygen Capacity: 6,000 -> 7,000
+
+  Airlock Doorway:
+    - Oxygen Capacity: 1,000 -> 3,500
+  </description>
+  <minimumLoaderVersion>0.10.0</minimumLoaderVersion>
+  <version>0.3.0</version>
   <author>Killparadise</author>
+  <config>
+    <var name="{airlockOxygen}" default="10000">Airlock Oxygen Capacity</var>
+    <var name="{airlockInventoryOut}" default="20">Airlock Outgoing Inventory Capacity</var>
+    <var name="{airlockInventoryIn}" default="20">Airlock Incoming Inventory Capacity</var>
+    <var name="{suitLockerOxygen}" default="7000">Suit Locker Oxygen Capacity</var>
+    <var name="{airlockDoorway}" default="3500">Airlock Doorway Oxygen Capacity</var>
+  </config>
 </mod>
