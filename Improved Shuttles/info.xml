@@ -1,7 +1,26 @@
 <mod>
   <name>ImprovedShuttles</name>
-  <description>Gives shuttles a little upgrade in space and oxygen</description>
+  <description>
+  Gives shuttles a little upgrade in space and oxygen
+  ======================
+
+  Shuttle Changes:
+    - Crew Capacity: 4 -> 5
+    - Oxygen Capacity: 10,000 -> 16,500
+    - Carry Capacity: 10 -> 20
+
+  Miner Changes:
+    - Oxygen Capacity: 4000 -> 7000
+    - Ore Capacity: 5 -> 10
+  </description>
   <minimumLoaderVersion>0.0.1</minimumLoaderVersion>
-  <version>0.2.0</version>
+  <version>0.3.0</version>
   <author>Killparadise</author>
+  <config>
+    <var name="{shuttleCrew}" default="5">Shuttle Crew Capacity</var>
+    <var name="{shuttleOxygen}" default="16500">Shuttle Oxygen Capacity</var>
+    <var name="{shuttleCapacity}" default="20">Shuttle Carry Capacity</var>
+    <var name="{minerCapacity}" default="10">Miner Carry Capacity</var>
+    <var name="{minerOxygen}" default="7000">Miner Oxygen Capacity</var>
+  </config>
 </mod>

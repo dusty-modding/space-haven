@@ -3,30 +3,30 @@
     <!-- Shuttle Crew Capacity -->
     <xpath>/data/Craft/craft[@cid="20"]</xpath>
     <attribute>passengers</attribute>
-    <value>5</value>
+    <value>{shuttleCrew}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Shuttle Oxygen Capacity -->
     <xpath>/data/Craft/craft[@cid="20"]/oxygen[@maxOxygen="10000"]</xpath>
     <attribute>maxOxygen</attribute>
-    <value>16500</value>
+    <value>{shuttleOxygen}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Shuttle Carry Capacity -->
     <xpath>/data/Craft/craft[@cid="20"]</xpath>
     <attribute>capacity</attribute>
-    <value>20</value>
+    <value>{shuttleCapacity}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Miner Oxygen Capacity -->
     <xpath>/data/Craft/craft[@cid="39"]/oxygen[@maxOxygen="4000"]</xpath>
     <attribute>maxOxygen</attribute>
-    <value>7000</value>
+    <value>{minerOxygen}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Miner Carry Capacity -->
     <xpath>/data/Craft/craft[@cid="39"]</xpath>
     <attribute>oreStorageSize</attribute>
-    <value>10</value>
+    <value>{minerCapacity}</value>
   </Operation>
 </Patch>
