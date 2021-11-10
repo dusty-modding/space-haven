@@ -1,0 +1,18 @@
+<mod>
+  <name>PackWagon</name>
+  <description>
+  Turn your ship into a pack wagon with extra storage space!
+    ======================
+
+  Defaults:
+  - Large Storage: 250 -> 550
+  - Small Storage: 50 -> 150
+  </description>
+  <minimumLoaderVersion>0.10.0</minimumLoaderVersion>
+  <version>0.3.0</version>
+  <author>Killparadise</author>
+  <config>
+    <var name="{largeStorage}" default="550">Large Storage Capacity</var>
+    <var name="{smallStorage}" default="150">Small Storage Capacity</var>
+  </config>
+</mod>

@@ -1,0 +1,14 @@
+<Patch>
+  <Operation Class="AttributeSet">
+    <!-- Large Storage -->
+    <xpath>/data/Element/me[@mid="789"]/data/l/element/features/stores[@capacity="250"]</xpath>
+    <attribute>capacity</attribute>
+    <value>{largeStorage}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Small Storage -->
+    <xpath>/data/Element/me[@mid="82"]/data/l/element/features/stores[@capacity="50"]</xpath>
+    <attribute>capacity</attribute>
+    <value>{smallStorage}</value>
+  </Operation>
+</Patch>
