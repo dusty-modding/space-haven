@@ -5,5 +5,6 @@ Content:
 
 - Improved Airlocks
 - Improved Shuttles
+- Pack Wagon
 - Less System Points
 - Zero System Points (DEPRECATED)
