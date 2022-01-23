@@ -1,11 +1,5 @@
 <Patch>
   <Operation Class="AttributeSet">
-    <!-- Hull Stabalizer -->
-    <xpath>/data/Element/me[@mid="2257"]/objectInfo[@systemPoints="2"]</xpath>
-    <attribute>systemPoints</attribute>
-    <value>{hullStabalizer}</value>
-  </Operation>
-  <Operation Class="AttributeSet">
     <!-- Shield Generator -->
     <xpath>/data/Element/me[@mid="470"]/objectInfo[@systemPoints="2"]</xpath>
     <attribute>systemPoints</attribute>
@@ -85,7 +79,7 @@
   </Operation>
   <Operation Class="AttributeSet">
   <!-- Large Power Node -->
-    <xpath>/data/Element/me[@mid="3269"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="3201"]/objectInfo[@systemPoints="1"]</xpath>
     <attribute>systemPoints</attribute>
     <value>{lpn}</value>
   </Operation>
@@ -97,7 +91,7 @@
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Auto Turret -->
-    <xpath>/data/Element/me[@mid="27283"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="2783"]/objectInfo[@systemPoints="1"]</xpath>
     <attribute>systemPoints</attribute>
     <value>{autoTurret}</value>
   </Operation>

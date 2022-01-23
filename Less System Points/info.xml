@@ -2,7 +2,7 @@
   <name>LessSystemPoints</name>
   <description>Modifies System Point requirements for modules and guns, now supports configuration!</description>
   <minimumLoaderVersion>0.10.0</minimumLoaderVersion>
-  <version>0.4.0</version>
+  <version>0.4.1</version>
   <author>Killparadise</author>
   <config>
     <var name="{x1PGen}" default="0">X1 Power Generator</var>
@@ -18,7 +18,6 @@
     <var name="{smallShieldGen}" default="1">Small Shield Generator</var>
     <var name="{energyTurret}" default="1">Energy Turret Cost</var>
     <var name="{missleTurret}" default="1">Missle Turret Cost</var>
-    <var name="{hullStabalizer}" default="1">Hull Stabalizer Cost</var>
     <var name="{shieldGen}" default="1">Shield Generator Cost</var>
     <var name="{scanner}" default="1">Scanner Cost</var>
     <var name="{jammer}" default="1">Target Jammer Cost</var>
