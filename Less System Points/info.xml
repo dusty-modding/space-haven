@@ -2,9 +2,20 @@
   <name>LessSystemPoints</name>
   <description>Modifies System Point requirements for modules and guns, now supports configuration!</description>
   <minimumLoaderVersion>0.10.0</minimumLoaderVersion>
-  <version>0.3.0</version>
+  <version>0.4.0</version>
   <author>Killparadise</author>
   <config>
+    <var name="{x1PGen}" default="0">X1 Power Generator</var>
+    <var name="{x2PGen}" default="0">X2 Power Generator</var>
+    <var name="{x3PGen}" default="0">X3 Power Generator</var>
+    <var name="{energiumGen}" default="0">Energium Power Generator</var>
+    <var name="{x1hyper}" default="0">X1 Hyperdrive</var>
+    <var name="{hHyper}" default="0">Hyperium Hyperdrive</var>
+    <var name="{pcn}" default="0">Power Capacity Node</var>
+    <var name="{spn}" default="0">Small Power Node</var>
+    <var name="{lpn}" default="1">Large Power Node</var>
+    <var name="{autoTurret}" default="1">Auto Turret</var>
+    <var name="{smallShieldGen}" default="1">Small Shield Generator</var>
     <var name="{energyTurret}" default="1">Energy Turret Cost</var>
     <var name="{missleTurret}" default="1">Missle Turret Cost</var>
     <var name="{hullStabalizer}" default="1">Hull Stabalizer Cost</var>
