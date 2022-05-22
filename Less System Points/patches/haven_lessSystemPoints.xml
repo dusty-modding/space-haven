@@ -79,7 +79,7 @@
   </Operation>
   <Operation Class="AttributeSet">
   <!-- Large Power Node -->
-    <xpath>/data/Element/me[@mid="3201"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="3202"]/objectInfo[@systemPoints="2"]</xpath>
     <attribute>systemPoints</attribute>
     <value>{lpn}</value>
   </Operation>
