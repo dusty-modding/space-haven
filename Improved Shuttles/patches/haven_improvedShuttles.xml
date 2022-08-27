@@ -13,7 +13,7 @@
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Shuttle Carry Capacity -->
-    <xpath>/data/Craft/craft[@cid="20"]</xpath>
+    <xpath>/data/Craft/craft[@cid="20"]/stores</xpath>
     <attribute>capacity</attribute>
     <value>{shuttleCapacity}</value>
   </Operation>
