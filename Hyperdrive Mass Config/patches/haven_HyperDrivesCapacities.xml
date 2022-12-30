@@ -1,0 +1,20 @@
+<Patch>
+  <Operation Class="AttributeSet">
+  <!-- X1 Hyperdrive -->
+    <xpath>/data/Element/me[@mid="2124"]/data/l/element/features/engineHub</xpath>
+    <attribute>massCapacity</attribute>
+    <value>{x1hyperMass}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+  <!-- X1 Hyperdrive -->
+    <xpath>/data/Element/me[@mid="1710"]/data/l/element/features/engineHub</xpath>
+    <attribute>massCapacity</attribute>
+    <value>{x1hyperMass}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+  <!-- Hyperium Hyperdrive -->
+    <xpath>/data/Element/me[@mid="2659"]/data/l/element/features/engineHub</xpath>
+    <attribute>massCapacity</attribute>
+    <value>{hHyperMass}</value>
+  </Operation>
+</Patch>
