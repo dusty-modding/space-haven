@@ -1,97 +1,103 @@
 <Patch>
   <Operation Class="AttributeSet">
     <!-- Shield Generator -->
-    <xpath>/data/Element/me[@mid="470"]/objectInfo[@systemPoints="2"]</xpath>
+    <xpath>/data/Element/me[@mid="470"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{shieldGen}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Scanner -->
-    <xpath>/data/Element/me[@mid="2239"]/objectInfo[@systemPoints="2"]</xpath>
+    <xpath>/data/Element/me[@mid="2239"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{scanner}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Missle Turret -->
-    <xpath>/data/Element/me[@mid="2708"]/objectInfo[@systemPoints="2"]</xpath>
+    <xpath>/data/Element/me[@mid="2708"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{missleTurret}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Energy Turret -->
-    <xpath>/data/Element/me[@mid="2242"]/objectInfo[@systemPoints="2"]</xpath>
+    <xpath>/data/Element/me[@mid="2242"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{energyTurret}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Targeting Jammer -->
-    <xpath>/data/Element/me[@mid="2724"]/objectInfo[@systemPoints="2"]</xpath>
+    <xpath>/data/Element/me[@mid="2724"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{jammer}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- X3 Power Generator -->
-    <xpath>/data/Element/me[@mid="344"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="344"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{x3PGen}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- X1 Power Generator -->
-    <xpath>/data/Element/me[@mid="708"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="708"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{x1PGen}</value>
   </Operation>
   <Operation Class="AttributeSet">
   <!-- X2 Power Generator -->
-    <xpath>/data/Element/me[@mid="1530"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="1530"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{x2PGen}</value>
   </Operation>
   <Operation Class="AttributeSet">
   <!-- Energium Power Generator -->
-    <xpath>/data/Element/me[@mid="2684"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="2684"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{energiumGen}</value>
   </Operation>
   <Operation Class="AttributeSet">
   <!-- X1 Hyperdrive -->
-    <xpath>/data/Element/me[@mid="2123"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="2123"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{x1hyper}</value>
   </Operation>
   <Operation Class="AttributeSet">
   <!-- Hyperium Hyperdrive -->
-    <xpath>/data/Element/me[@mid="2655"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="2655"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{hHyper}</value>
   </Operation>
   <Operation Class="AttributeSet">
   <!-- Power Capacity Node -->
-    <xpath>/data/Element/me[@mid="3204"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="3204"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{pcn}</value>
   </Operation>
   <Operation Class="AttributeSet">
+  <!-- Hull Stabalizer -->
+    <xpath>/data/Element/me[@mid="2257"]/objectInfo</xpath>
+    <attribute>systemPoints</attribute>
+    <value>{hStabilizer}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
   <!-- Small Power Node -->
-    <xpath>/data/Element/me[@mid="3269"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="3269"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{spn}</value>
   </Operation>
   <Operation Class="AttributeSet">
   <!-- Large Power Node -->
-    <xpath>/data/Element/me[@mid="3202"]/objectInfo[@systemPoints="2"]</xpath>
+    <xpath>/data/Element/me[@mid="3202"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{lpn}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Small Shield Gen -->
-    <xpath>/data/Element/me[@mid="3264"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="3264"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{smallShieldGen}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Auto Turret -->
-    <xpath>/data/Element/me[@mid="2783"]/objectInfo[@systemPoints="1"]</xpath>
+    <xpath>/data/Element/me[@mid="2783"]/objectInfo</xpath>
     <attribute>systemPoints</attribute>
     <value>{autoTurret}</value>
   </Operation>
