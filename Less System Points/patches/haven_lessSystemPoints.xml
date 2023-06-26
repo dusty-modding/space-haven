@@ -101,4 +101,10 @@
     <attribute>systemPoints</attribute>
     <value>{autoTurret}</value>
   </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Fighter -->
+    <xpath>/Craft/craft[@cid=2786]</xpath>
+    <attribute>systemPoints</attribute>
+    <value>{fighterCraft}</value>
+  </Operation>
 </Patch>
