@@ -1,14 +1,26 @@
 <Patch>
   <Operation Class="AttributeSet">
     <!-- Large Storage -->
-    <xpath>/data/Element/me[@mid="789"]/data/l/element/features/stores[@capacity="250"]</xpath>
+    <xpath>/data/Element/me[@mid="789"]/data/l/element/features/stores</xpath>
     <attribute>capacity</attribute>
     <value>{largeStorage}</value>
   </Operation>
   <Operation Class="AttributeSet">
     <!-- Small Storage -->
-    <xpath>/data/Element/me[@mid="82"]/data/l/element/features/stores[@capacity="50"]</xpath>
+    <xpath>/data/Element/me[@mid="82"]/data/l/element/features/stores</xpath>
     <attribute>capacity</attribute>
     <value>{smallStorage}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Body Storage -->
+    <xpath>/data/Element/me[@mid="3063"]/data/l/element/features/stores</xpath>
+    <attribute>capacity</attribute>
+    <value>{bodyStorage}</value>
+  </Operation>
+  <Operation Class="AttributeSet">
+    <!-- Robot Storage -->
+    <xpath>/data/Element/me[@mid="3065"]/data/l/element/features/stores</xpath>
+    <attribute>capacity</attribute>
+    <value>{robotStorage}</value>
   </Operation>
 </Patch>
